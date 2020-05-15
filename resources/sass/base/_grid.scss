@@ -1,0 +1,99 @@
+// screen > small
+@screen sm{
+    .flex-sm{
+        @apply flex;
+    }
+    .col-2_sm{
+        @apply w-1/5
+    }
+    .col-4_sm{
+        @apply w-2/5
+    }
+    .col-5_sm{
+        @apply w-1/2
+    }
+    .col-6_sm{
+        @apply w-3/5
+    }
+    .col-8_sm{
+        @apply w-4/5
+    }
+    .col-10_sm{
+        @apply w-full
+    }
+}
+
+// screen > medium
+@screen md{
+    .flex-md{
+        @apply flex;
+    }
+    .col-2_md{
+        @apply w-1/5
+    }
+    .col-4_md{
+        @apply w-2/5
+    }
+    .col-5_md{
+        @apply w-1/2
+    }
+    .col-6_md{
+        @apply w-3/5
+    }
+    .col-8_md{
+        @apply w-4/5
+    }
+    .col-10_md{
+        @apply w-full
+    }
+}
+
+// screen > large
+@screen lg{
+    .flex-lg{
+        @apply flex;
+    }
+    .col-2_lg{
+        @apply w-1/5
+    }
+    .col-4_lg{
+        @apply w-2/5
+    }
+    .col-5_lg{
+        @apply w-1/2
+    }
+    .col-6_lg{
+        @apply w-3/5
+    }
+    .col-8_lg{
+        @apply w-4/5
+    }
+    .col-10_lg{
+        @apply w-full
+    }
+}
+
+// screen > xtra-large
+@screen xl{
+    .flex-xl{
+        @apply flex;
+    }
+    .col-2_xl{
+        @apply w-1/5
+    }
+    .col-4_xl{
+        @apply w-2/5
+    }
+    .col-5_xl{
+        @apply w-1/2
+    }
+    .col-6_xl{
+        @apply w-3/5
+    }
+    .col-8_xl{
+        @apply w-4/5
+    }
+    .col-10_xl{
+        @apply w-full
+    }
+}

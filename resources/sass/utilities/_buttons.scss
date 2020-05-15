@@ -1,0 +1,609 @@
+/**
+    All the gray buttons
+**/
+
+// Buttons gray-100
+.btn_gray-100{
+    @apply inline-block font-sans bg-gray-100 px-5 py-3;
+}
+.btn_gray-100:hover{
+    @apply inline-block font-sans bg-gray-200 px-5 py-3;
+}
+
+// Buttons gray-200
+.btn_gray-200{
+    @apply inline-block font-sans bg-gray-200 px-5 py-3;
+}
+.btn_gray-200:hover{
+    @apply inline-block font-sans bg-gray-300 px-5 py-3;
+}
+
+// Buttons gray-300
+.btn_gray-300{
+    @apply inline-block font-sans bg-gray-300 px-5 py-3;
+}
+.btn_gray-300:hover{
+    @apply inline-block font-sans bg-gray-400 px-5 py-3;
+}
+
+// Buttons gray-400
+.btn_gray-400{
+    @apply inline-block font-sans bg-gray-400 px-5 py-3;
+}
+.btn_gray-400:hover{
+    @apply inline-block font-sans bg-gray-500 px-5 py-3;
+}
+
+// Buttons gray-500
+.btn_gray-500{
+    @apply inline-block font-sans bg-gray-500 px-5 py-3;
+}
+.btn_gray-500:hover{
+    @apply inline-block font-sans bg-gray-600 px-5 py-3;
+}
+
+// Buttons gray-600
+.btn_gray-600{
+    @apply inline-block font-sans bg-gray-600 px-5 py-3;
+}
+.btn_gray-600:hover{
+    @apply inline-block font-sans bg-gray-700 px-5 py-3;
+}
+
+// Buttons gray-700
+.btn_gray-700{
+    @apply inline-block font-sans bg-gray-700 text-white px-5 py-3;
+}
+.btn_gray-700:hover{
+    @apply inline-block font-sans bg-gray-800 text-white px-5 py-3;
+}
+
+// Buttons gray-800
+.btn_gray-800{
+    @apply inline-block font-sans bg-gray-800 text-white px-5 py-3;
+}
+.btn_gray-800:hover{
+    @apply inline-block font-sans bg-gray-900 text-white px-5 py-3;
+}
+
+// Buttons gray-900
+.btn_gray-900{
+    @apply inline-block font-sans bg-gray-900 text-white px-5 py-3;
+}
+.btn_gray-900:hover{
+    @apply inline-block font-sans bg-gray-800 text-white px-5 py-3;
+}
+
+/**
+    All the blue buttons
+**/
+
+// Buttons blue-100
+.btn_blue-100{
+    @apply inline-block font-sans bg-blue-100 px-5 py-3;
+}
+.btn_blue-100:hover{
+    @apply inline-block font-sans bg-blue-200 px-5 py-3;
+}
+
+// Buttons blue-200
+.btn_blue-200{
+    @apply inline-block font-sans bg-blue-200 px-5 py-3;
+}
+.btn_blue-200:hover{
+    @apply inline-block font-sans bg-blue-300 px-5 py-3;
+}
+
+// Buttons blue-300
+.btn_blue-300{
+    @apply inline-block font-sans bg-blue-300 px-5 py-3;
+}
+.btn_blue-300:hover{
+    @apply inline-block font-sans bg-blue-400 px-5 py-3;
+}
+
+// Buttons blue-400
+.btn_blue-400{
+    @apply inline-block font-sans bg-blue-400 px-5 py-3;
+}
+.btn_blue-400:hover{
+    @apply inline-block font-sans bg-blue-500 px-5 py-3;
+}
+
+// Buttons blue-500
+.btn_blue-500{
+    @apply inline-block font-sans bg-blue-500 px-5 py-3;
+}
+.btn_blue-500:hover{
+    @apply inline-block font-sans bg-blue-600 px-5 py-3;
+}
+
+// Buttons blue-600
+.btn_blue-600{
+    @apply inline-block font-sans bg-blue-600 px-5 py-3;
+}
+.btn_blue-600:hover{
+    @apply inline-block font-sans bg-blue-700 px-5 py-3;
+}
+
+// Buttons blue-700
+.btn_blue-700{
+    @apply inline-block font-sans bg-blue-700 text-white px-5 py-3;
+}
+.btn_blue-700:hover{
+    @apply inline-block font-sans bg-blue-800 text-white px-5 py-3;
+}
+
+// Buttons blue-800
+.btn_blue-800{
+    @apply inline-block font-sans bg-blue-800 text-white px-5 py-3;
+}
+.btn_blue-800:hover{
+    @apply inline-block font-sans bg-blue-900 text-white px-5 py-3;
+}
+
+// Buttons blue-900
+.btn_blue-900{
+    @apply inline-block font-sans bg-blue-900 text-white px-5 py-3;
+}
+.btn_blue-900:hover{
+    @apply inline-block font-sans bg-blue-800 text-white px-5 py-3;
+}
+
+/**
+    All the orange buttons
+**/
+
+// Buttons orange-100
+.btn_orange-100{
+    @apply inline-block font-sans bg-orange-100 px-5 py-3;
+}
+.btn_orange-100:hover{
+    @apply inline-block font-sans bg-orange-200 px-5 py-3;
+}
+
+// Buttons orange-200
+.btn_orange-200{
+    @apply inline-block font-sans bg-orange-200 px-5 py-3;
+}
+.btn_orange-200:hover{
+    @apply inline-block font-sans bg-orange-300 px-5 py-3;
+}
+
+// Buttons orange-300
+.btn_orange-300{
+    @apply inline-block font-sans bg-orange-300 px-5 py-3;
+}
+.btn_orange-300:hover{
+    @apply inline-block font-sans bg-orange-400 px-5 py-3;
+}
+
+// Buttons orange-400
+.btn_orange-400{
+    @apply inline-block font-sans bg-orange-400 px-5 py-3;
+}
+.btn_orange-400:hover{
+    @apply inline-block font-sans bg-orange-500 px-5 py-3;
+}
+
+// Buttons orange-500
+.btn_orange-500{
+    @apply inline-block font-sans bg-orange-500 px-5 py-3;
+}
+.btn_orange-500:hover{
+    @apply inline-block font-sans bg-orange-600 px-5 py-3;
+}
+
+// Buttons orange-600
+.btn_orange-600{
+    @apply inline-block font-sans bg-orange-600 px-5 py-3;
+}
+.btn_orange-600:hover{
+    @apply inline-block font-sans bg-orange-700 px-5 py-3;
+}
+
+// Buttons orange-700
+.btn_orange-700{
+    @apply inline-block font-sans bg-orange-700 text-white px-5 py-3;
+}
+.btn_orange-700:hover{
+    @apply inline-block font-sans bg-orange-800 text-white px-5 py-3;
+}
+
+// Buttons orange-800
+.btn_orange-800{
+    @apply inline-block font-sans bg-orange-800 text-white px-5 py-3;
+}
+.btn_orange-800:hover{
+    @apply inline-block font-sans bg-orange-900 text-white px-5 py-3;
+}
+
+// Buttons orange-900
+.btn_orange-900{
+    @apply inline-block font-sans bg-orange-900 text-white px-5 py-3;
+}
+.btn_orange-900:hover{
+    @apply inline-block font-sans bg-orange-800 text-white px-5 py-3;
+}
+
+/**
+    All the teal buttons
+**/
+
+// Buttons teal-100
+.btn_teal-100{
+    @apply inline-block font-sans bg-teal-100 px-5 py-3;
+}
+.btn_teal-100:hover{
+    @apply inline-block font-sans bg-teal-200 px-5 py-3;
+}
+
+// Buttons teal-200
+.btn_teal-200{
+    @apply inline-block font-sans bg-teal-200 px-5 py-3;
+}
+.btn_teal-200:hover{
+    @apply inline-block font-sans bg-teal-300 px-5 py-3;
+}
+
+// Buttons teal-300
+.btn_teal-300{
+    @apply inline-block font-sans bg-teal-300 px-5 py-3;
+}
+.btn_teal-300:hover{
+    @apply inline-block font-sans bg-teal-400 px-5 py-3;
+}
+
+// Buttons teal-400
+.btn_teal-400{
+    @apply inline-block font-sans bg-teal-400 px-5 py-3;
+}
+.btn_teal-400:hover{
+    @apply inline-block font-sans bg-teal-500 px-5 py-3;
+}
+
+// Buttons teal-500
+.btn_teal-500{
+    @apply inline-block font-sans bg-teal-500 px-5 py-3;
+}
+.btn_teal-500:hover{
+    @apply inline-block font-sans bg-teal-600 px-5 py-3;
+}
+
+// Buttons teal-600
+.btn_teal-600{
+    @apply inline-block font-sans bg-teal-600 px-5 py-3;
+}
+.btn_teal-600:hover{
+    @apply inline-block font-sans bg-teal-700 px-5 py-3;
+}
+
+// Buttons teal-700
+.btn_teal-700{
+    @apply inline-block font-sans bg-teal-700 text-white px-5 py-3;
+}
+.btn_teal-700:hover{
+    @apply inline-block font-sans bg-teal-800 text-white px-5 py-3;
+}
+
+// Buttons teal-800
+.btn_teal-800{
+    @apply inline-block font-sans bg-teal-800 text-white px-5 py-3;
+}
+.btn_teal-800:hover{
+    @apply inline-block font-sans bg-teal-900 text-white px-5 py-3;
+}
+
+// Buttons teal-900
+.btn_teal-900{
+    @apply inline-block font-sans bg-teal-900 text-white px-5 py-3;
+}
+.btn_teal-900:hover{
+    @apply inline-block font-sans bg-teal-800 text-white px-5 py-3;
+}
+
+
+/**
+    All the yellow buttons
+**/
+
+// Buttons yellow-100
+.btn_yellow-100{
+    @apply inline-block font-sans bg-yellow-100 px-5 py-3;
+}
+.btn_yellow-100:hover{
+    @apply inline-block font-sans bg-yellow-200 px-5 py-3;
+}
+
+// Buttons yellow-200
+.btn_yellow-200{
+    @apply inline-block font-sans bg-yellow-200 px-5 py-3;
+}
+.btn_yellow-200:hover{
+    @apply inline-block font-sans bg-yellow-300 px-5 py-3;
+}
+
+// Buttons yellow-300
+.btn_yellow-300{
+    @apply inline-block font-sans bg-yellow-300 px-5 py-3;
+}
+.btn_yellow-300:hover{
+    @apply inline-block font-sans bg-yellow-400 px-5 py-3;
+}
+
+// Buttons yellow-400
+.btn_yellow-400{
+    @apply inline-block font-sans bg-yellow-400 px-5 py-3;
+}
+.btn_yellow-400:hover{
+    @apply inline-block font-sans bg-yellow-500 px-5 py-3;
+}
+
+// Buttons yellow-500
+.btn_yellow-500{
+    @apply inline-block font-sans bg-yellow-500 px-5 py-3;
+}
+.btn_yellow-500:hover{
+    @apply inline-block font-sans bg-yellow-600 px-5 py-3;
+}
+
+// Buttons yellow-600
+.btn_yellow-600{
+    @apply inline-block font-sans bg-yellow-600 px-5 py-3;
+}
+.btn_yellow-600:hover{
+    @apply inline-block font-sans bg-yellow-700 px-5 py-3;
+}
+
+// Buttons yellow-700
+.btn_yellow-700{
+    @apply inline-block font-sans bg-yellow-700 text-white px-5 py-3;
+}
+.btn_yellow-700:hover{
+    @apply inline-block font-sans bg-yellow-800 text-white px-5 py-3;
+}
+
+// Buttons yellow-800
+.btn_yellow-800{
+    @apply inline-block font-sans bg-yellow-800 text-white px-5 py-3;
+}
+.btn_yellow-800:hover{
+    @apply inline-block font-sans bg-yellow-900 text-white px-5 py-3;
+}
+
+// Buttons yellow-900
+.btn_yellow-900{
+    @apply inline-block font-sans bg-yellow-900 text-white px-5 py-3;
+}
+.btn_yellow-900:hover{
+    @apply inline-block font-sans bg-yellow-800 text-white px-5 py-3;
+}
+
+
+/**
+    All the purple buttons
+**/
+
+// Buttons purple-100
+.btn_purple-100{
+    @apply inline-block font-sans bg-purple-100 px-5 py-3;
+}
+.btn_purple-100:hover{
+    @apply inline-block font-sans bg-purple-200 px-5 py-3;
+}
+
+// Buttons purple-200
+.btn_purple-200{
+    @apply inline-block font-sans bg-purple-200 px-5 py-3;
+}
+.btn_purple-200:hover{
+    @apply inline-block font-sans bg-purple-300 px-5 py-3;
+}
+
+// Buttons purple-300
+.btn_purple-300{
+    @apply inline-block font-sans bg-purple-300 px-5 py-3;
+}
+.btn_purple-300:hover{
+    @apply inline-block font-sans bg-purple-400 px-5 py-3;
+}
+
+// Buttons purple-400
+.btn_purple-400{
+    @apply inline-block font-sans bg-purple-400 px-5 py-3;
+}
+.btn_purple-400:hover{
+    @apply inline-block font-sans bg-purple-500 px-5 py-3;
+}
+
+// Buttons purple-500
+.btn_purple-500{
+    @apply inline-block font-sans bg-purple-500 px-5 py-3;
+}
+.btn_purple-500:hover{
+    @apply inline-block font-sans bg-purple-600 px-5 py-3;
+}
+
+// Buttons purple-600
+.btn_purple-600{
+    @apply inline-block font-sans bg-purple-600 px-5 py-3;
+}
+.btn_purple-600:hover{
+    @apply inline-block font-sans bg-purple-700 px-5 py-3;
+}
+
+// Buttons purple-700
+.btn_purple-700{
+    @apply inline-block font-sans bg-purple-700 text-white px-5 py-3;
+}
+.btn_purple-700:hover{
+    @apply inline-block font-sans bg-purple-800 text-white px-5 py-3;
+}
+
+// Buttons purple-800
+.btn_purple-800{
+    @apply inline-block font-sans bg-purple-800 text-white px-5 py-3;
+}
+.btn_purple-800:hover{
+    @apply inline-block font-sans bg-purple-900 text-white px-5 py-3;
+}
+
+// Buttons purple-900
+.btn_purple-900{
+    @apply inline-block font-sans bg-purple-900 text-white px-5 py-3;
+}
+.btn_purple-900:hover{
+    @apply inline-block font-sans bg-purple-800 text-white px-5 py-3;
+}
+
+/**
+    All the green buttons
+**/
+
+// Buttons green-100
+.btn_green-100{
+    @apply inline-block font-sans bg-green-100 px-5 py-3;
+}
+.btn_green-100:hover{
+    @apply inline-block font-sans bg-green-200 px-5 py-3;
+}
+
+// Buttons green-200
+.btn_green-200{
+    @apply inline-block font-sans bg-green-200 px-5 py-3;
+}
+.btn_green-200:hover{
+    @apply inline-block font-sans bg-green-300 px-5 py-3;
+}
+
+// Buttons green-300
+.btn_green-300{
+    @apply inline-block font-sans bg-green-300 px-5 py-3;
+}
+.btn_green-300:hover{
+    @apply inline-block font-sans bg-green-400 px-5 py-3;
+}
+
+// Buttons green-400
+.btn_green-400{
+    @apply inline-block font-sans bg-green-400 px-5 py-3;
+}
+.btn_green-400:hover{
+    @apply inline-block font-sans bg-green-500 px-5 py-3;
+}
+
+// Buttons green-500
+.btn_green-500{
+    @apply inline-block font-sans bg-green-500 px-5 py-3;
+}
+.btn_green-500:hover{
+    @apply inline-block font-sans bg-green-600 px-5 py-3;
+}
+
+// Buttons green-600
+.btn_green-600{
+    @apply inline-block font-sans bg-green-600 px-5 py-3;
+}
+.btn_green-600:hover{
+    @apply inline-block font-sans bg-green-700 px-5 py-3;
+}
+
+// Buttons green-700
+.btn_green-700{
+    @apply inline-block font-sans bg-green-700 text-white px-5 py-3;
+}
+.btn_green-700:hover{
+    @apply inline-block font-sans bg-green-800 text-white px-5 py-3;
+}
+
+// Buttons green-800
+.btn_green-800{
+    @apply inline-block font-sans bg-green-800 text-white px-5 py-3;
+}
+.btn_green-800:hover{
+    @apply inline-block font-sans bg-green-900 text-white px-5 py-3;
+}
+
+// Buttons green-900
+.btn_green-900{
+    @apply inline-block font-sans bg-green-900 text-white px-5 py-3;
+}
+.btn_green-900:hover{
+    @apply inline-block font-sans bg-green-800 text-white px-5 py-3;
+}
+
+/**
+    All the red buttons
+**/
+
+// Buttons red-100
+.btn_red-100{
+    @apply inline-block font-sans bg-red-100 px-5 py-3;
+}
+.btn_red-100:hover{
+    @apply inline-block font-sans bg-red-200 px-5 py-3;
+}
+
+// Buttons red-200
+.btn_red-200{
+    @apply inline-block font-sans bg-red-200 px-5 py-3;
+}
+.btn_red-200:hover{
+    @apply inline-block font-sans bg-red-300 px-5 py-3;
+}
+
+// Buttons red-300
+.btn_red-300{
+    @apply inline-block font-sans bg-red-300 px-5 py-3;
+}
+.btn_red-300:hover{
+    @apply inline-block font-sans bg-red-400 px-5 py-3;
+}
+
+// Buttons red-400
+.btn_red-400{
+    @apply inline-block font-sans bg-red-400 px-5 py-3;
+}
+.btn_red-400:hover{
+    @apply inline-block font-sans bg-red-500 px-5 py-3;
+}
+
+// Buttons red-500
+.btn_red-500{
+    @apply inline-block font-sans bg-red-500 px-5 py-3;
+}
+.btn_red-500:hover{
+    @apply inline-block font-sans bg-red-600 px-5 py-3;
+}
+
+// Buttons red-600
+.btn_red-600{
+    @apply inline-block font-sans bg-red-600 px-5 py-3;
+}
+.btn_red-600:hover{
+    @apply inline-block font-sans bg-red-700 px-5 py-3;
+}
+
+// Buttons red-700
+.btn_red-700{
+    @apply inline-block font-sans bg-red-700 text-white px-5 py-3;
+}
+.btn_red-700:hover{
+    @apply inline-block font-sans bg-red-800 text-white px-5 py-3;
+}
+
+// Buttons red-800
+.btn_red-800{
+    @apply inline-block font-sans bg-red-800 text-white px-5 py-3;
+}
+.btn_red-800:hover{
+    @apply inline-block font-sans bg-red-900 text-white px-5 py-3;
+}
+
+// Buttons red-900
+.btn_red-900{
+    @apply inline-block font-sans bg-red-900 text-white px-5 py-3;
+}
+.btn_red-900:hover{
+    @apply inline-block font-sans bg-red-800 text-white px-5 py-3;
+}

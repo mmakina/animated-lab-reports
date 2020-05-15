@@ -21,20 +21,20 @@ mix.sass('resources/sass/app.scss', 'public/css')
    .options({
       processCssUrls: false,
       postCss: [ tailwindcss('tailwind.config.js') ],
-   // });
-}).purgeCss({
-        enabled: true,
+   });
+// }).purgeCss({
+//         enabled: true,
 
-        // Your custom globs are merged with the default globs. If you need to
-        // fully replace the globs, use the underlying `paths` option instead.
-        globs: [
-            path.join(__dirname, 'node_modules/simplemde/**/*.js'),
-        ],
+//         // Your custom globs are merged with the default globs. If you need to
+//         // fully replace the globs, use the underlying `paths` option instead.
+//         globs: [
+//             path.join(__dirname, 'node_modules/simplemde/**/*.js'),
+//         ],
 
-        extensions: ['html', 'js', 'php', 'vue'],
+//         extensions: ['html', 'js', 'php', 'vue'],
 
-        // Other options are passed through to Purgecss
-        whitelistPatterns: [/language/, /hljs/],
+//         // Other options are passed through to Purgecss
+//         whitelistPatterns: [/language/, /hljs/],
 
-        whitelistPatternsChildren: [/^markdown$/],
-    });
+//         whitelistPatternsChildren: [/^markdown$/],
+//     });

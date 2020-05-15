@@ -1,0 +1,18 @@
+// Tailwind import
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800&display=swap');
+
+/**
+
+@include all settings and components
+**/
+@import "settings/settings";
+@import "base/base";
+@import "utilities/utilities";
+

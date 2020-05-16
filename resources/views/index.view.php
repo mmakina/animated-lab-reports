@@ -2,16 +2,16 @@
 
 <div class="pt-20 px-20">
     <table class="table">
-        <thead class="table_header">
-            <tr class="table_header_row">
-                <th class="table_header_data">Lorem ipsum dolor sit</th>
-                <th class="table_header_data">Lorem ipsum dolor sit</th>
-                <th class="table_header_data">Lorem ipsum dolor sit</th>
-                <th class="table_header_data">Lorem ipsum dolor sit</th>
-                <th class="table_header_data">Lorem ipsum dolor sit</th>
+        <thead class="table_header bg-teal-800 font-sans text-sm text-gray-300">
+            <tr class="table_header_row border-gray-500">
+                <th class="table_header_data font-sans font-normal">Lorem ipsum dolor sit</th>
+                <th class="table_header_data font-sans font-normal border-gray-500">Lorem ipsum dolor sit</th>
+                <th class="table_header_data font-sans font-normal">Lorem ipsum dolor sit</th>
+                <th class="table_header_data font-sans font-normal">Lorem ipsum dolor sit</th>
+                <th class="table_header_data font-sans font-normal">Lorem ipsum dolor sit</th>
             </tr>
         </thead>
-        <tbody class="table_body">
+        <tbody class="table_body bg-teal-100">
             <tr class="table_body_row">
                 <td class="table_body_data">152</td>
                 <td class="table_body_data">152</td>

@@ -1,0 +1,38 @@
+.table{
+
+}
+.table_header{
+
+}
+.table_header_row{
+
+}
+.table_header_data{
+    padding:15px 15px 15px 15px;
+}
+.table_body{
+
+}
+.table_body_row{
+
+}
+.table_body_data{
+    padding:15px 15px 15px 15px;
+    text-align: center;
+}
+
+/* Element | http://localhost:8000/ */
+
+.table_header_row {
+    padding-top: 50px;
+  }
+  
+
+  .table_header {
+    /* padding: 800p\[; */
+    /* padding: 800p\[x; */
+    background: bisque;
+    display: table-header-group;
+    padding: 800px;
+  }
+  

@@ -1,72 +1,72 @@
 <?php require_once "layouts/header.view.php"; ?>
 
 <div class="pt-20 px-20">
-    <table>
-        <thead>
-            <tr>
-                <th>Lorem ipsum dolor sit</th>
-                <th>Lorem ipsum dolor sit</th>
-                <th>Lorem ipsum dolor sit</th>
-                <th>Lorem ipsum dolor sit</th>
-                <th>Lorem ipsum dolor sit</th>
+    <table class="table">
+        <thead class="table_header">
+            <tr class="table_header_row">
+                <th class="table_header_data">Lorem ipsum dolor sit</th>
+                <th class="table_header_data">Lorem ipsum dolor sit</th>
+                <th class="table_header_data">Lorem ipsum dolor sit</th>
+                <th class="table_header_data">Lorem ipsum dolor sit</th>
+                <th class="table_header_data">Lorem ipsum dolor sit</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+        <tbody class="table_body">
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
-            <tr>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
-                <td>152</td>
+            <tr class="table_body_row">
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
+                <td class="table_body_data">152</td>
             </tr>
         </tbody>
         

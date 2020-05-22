@@ -13934,6 +13934,13 @@ video {
   text-align: center;
 }
 
+.navbar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

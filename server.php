@@ -8,6 +8,6 @@ switch ($_SERVER['REQUEST_URI']) {
     
     default:
         # code...
-        require_once "resources/views/index.view.php";
+        require_once "resources/views/selection.view.php";
         break;
 }

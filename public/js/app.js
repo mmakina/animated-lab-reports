@@ -2391,7 +2391,10 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "footer",
-      { staticClass: "h-16 flex items-center justify-center bg-gray-900" },
+      {
+        staticClass:
+          "h-16 flex items-center justify-center bg-brand-color-darken"
+      },
       [
         _c(
           "span",
@@ -2494,7 +2497,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_teal-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2514,7 +2517,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_teal-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2534,7 +2537,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_teal-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2556,7 +2559,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_green-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2576,7 +2579,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_green-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2596,7 +2599,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_green-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2618,7 +2621,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_blue-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2638,7 +2641,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_blue-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2658,7 +2661,7 @@ var staticRenderFns = [
               {
                 staticClass:
                   "btn_blue-800 text-md font-sans mt-5 font-semibold text-white",
-                attrs: { href: "tensiletest.php" }
+                attrs: { href: "/selection?test=tesnile-test" }
               },
               [_vm._v("Run test")]
             )
@@ -2666,6 +2669,512 @@ var staticRenderFns = [
         ])
       ])
     ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c&":
+/*!*******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c& ***!
+  \*******************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "section",
+      { staticClass: "container flex items-center justify-center p-16" },
+      [
+        _c("div", { staticClass: "w-full" }, [
+          _c(
+            "form",
+            {
+              staticClass: "bg-teal-900 w-full p-10",
+              attrs: { action: "/test?test=tensiletest", method: "post" }
+            },
+            [
+              _c("div", { staticClass: "flex-sm" }, [
+                _c("div", { staticClass: "form-group col-6_sm px-5" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass:
+                        "text-md font-semibold block mb-5 text-white font-sans tracking-wide",
+                      attrs: { for: "original_length" }
+                    },
+                    [_vm._v("Original Length")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-input w-full",
+                    attrs: {
+                      type: "number",
+                      name: "original_length",
+                      id: "",
+                      step: "0.000001",
+                      placeholder: "",
+                      required: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group col-6_sm px-5" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass:
+                        "text-md font-semibold block mb-5 text-white font-sans tracking-wide",
+                      attrs: { for: "final_length" }
+                    },
+                    [_vm._v("Final Length")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-input w-full",
+                    attrs: {
+                      type: "number",
+                      name: "final_length",
+                      id: "",
+                      step: "0.000001",
+                      placeholder: "",
+                      required: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "flex-sm" }, [
+                _c("div", { staticClass: "form-group col-6_sm p-5" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass:
+                        "text-md font-semibold block mb-5 text-white font-sans tracking-wide",
+                      attrs: { for: "original_diameter" }
+                    },
+                    [_vm._v("Original Daimeter")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-input w-full",
+                    attrs: {
+                      type: "number",
+                      name: "original_diameter",
+                      id: "",
+                      step: "0.000001",
+                      placeholder: "",
+                      required: ""
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group col-6_sm p-5" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass:
+                        "text-md font-semibold block mb-5 text-white font-sans tracking-wide",
+                      attrs: { for: "final_diameter" }
+                    },
+                    [_vm._v("Final Daimeter")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-input w-full",
+                    attrs: {
+                      type: "number",
+                      name: "final_diameter",
+                      id: "",
+                      step: "0.000001",
+                      placeholder: "",
+                      required: ""
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass:
+                      "text-md font-semibold block mb-5 text-white font-sans tracking-wide",
+                    attrs: { for: "applied_load" }
+                  },
+                  [_vm._v("Applied Load")]
+                ),
+                _vm._v(" "),
+                _c("textarea", {
+                  staticClass: "form-textarea w-full",
+                  attrs: {
+                    name: "applied_load",
+                    id: "",
+                    cols: "30",
+                    rows: "5",
+                    placeholder: "Input Load values seperated by comma's",
+                    required: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass:
+                      "text-md font-semibold block mb-5 mt-5 text-white font-sans tracking-wide",
+                    attrs: { for: "extension" }
+                  },
+                  [_vm._v("Extension")]
+                ),
+                _vm._v(" "),
+                _c("textarea", {
+                  staticClass: "form-textarea w-full",
+                  attrs: {
+                    name: "extension",
+                    id: "",
+                    cols: "30",
+                    rows: "5",
+                    placeholder: "Input Extensions Values seperated by comma's",
+                    required: ""
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-md font-semibold block mb-5 text-white font-sans tracking-wide mt-5"
+                  },
+                  [_vm._v("Load SI unit")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "load_si_unit" }
+                  },
+                  [_vm._v("Newtons")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "load_si_unit",
+                    id: "",
+                    value: "newtons",
+                    checked: ""
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "load_si_unit" }
+                  },
+                  [_vm._v("Kilonewtons")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "load_si_unit",
+                    id: "",
+                    value: "kilonewtons"
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "load_si_unit" }
+                  },
+                  [_vm._v("Meganewtons")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "load_si_unit",
+                    id: "",
+                    value: "meganewtons"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-md font-semibold block mb-5 text-white font-sans tracking-wide mt-5"
+                  },
+                  [_vm._v("Extension SI unit")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "extension_si_unit" }
+                  },
+                  [_vm._v("Meters")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "extension_si_unit",
+                    id: "",
+                    value: "meters",
+                    checked: ""
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "extension_si_unit" }
+                  },
+                  [_vm._v("Centimetres")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "extension_si_unit",
+                    id: "",
+                    value: "centimetres"
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "extension_si_unit" }
+                  },
+                  [_vm._v("Millimetres")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "extension_si_unit",
+                    id: " ",
+                    value: "millimetres"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5" }, [
+                _c(
+                  "span",
+                  {
+                    staticClass:
+                      "text-md font-semibold block mb-5 text-white font-sans tracking-wide mt-5"
+                  },
+                  [_vm._v("Daimeter and Length SI unit")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "dimensions_si_unit" }
+                  },
+                  [_vm._v("Meters")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "dimensions_si_unit",
+                    id: "",
+                    value: "meters",
+                    checked: ""
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "dimensions_si_unit" }
+                  },
+                  [_vm._v("Centimetres")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "dimensions_si_unit",
+                    id: "",
+                    value: "centimetres"
+                  }
+                }),
+                _vm._v(" "),
+                _c(
+                  "label",
+                  {
+                    staticClass: "text-sm text-white font-sans tracking-wide",
+                    attrs: { for: "dimensions_si_unit" }
+                  },
+                  [_vm._v("Millimetres")]
+                ),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-radio",
+                  attrs: {
+                    type: "radio",
+                    name: "dimensions_si_unit",
+                    id: "",
+                    value: "millimetres"
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c(
+                "span",
+                {
+                  staticClass:
+                    "text-md font-semibold block mb-5 text-white font-sans tracking-wide mt-5"
+                },
+                [_vm._v("Properties Needed to be Calculated")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "form-group px-5 flex" }, [
+                _c("div", { staticClass: "pr-3" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "text-sm text-white font-sans tracking-wide",
+                      attrs: { for: "percantage_elongation" }
+                    },
+                    [_vm._v("Percantage Elongation")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-checkbox",
+                    attrs: {
+                      type: "checkbox",
+                      name: "percantage_elongation",
+                      id: "",
+                      value: "percantage_elongation"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "px-3" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "text-sm text-white font-sans tracking-wide",
+                      attrs: { for: "percantage_area_reductions" }
+                    },
+                    [_vm._v("Percantage Area Reductions")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-checkbox",
+                    attrs: {
+                      type: "checkbox",
+                      name: "percantage_area_reductions",
+                      id: "",
+                      value: "percantage_area_reductions"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "px-3" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "text-sm text-white font-sans tracking-wide",
+                      attrs: { for: "stress" }
+                    },
+                    [_vm._v("Stress")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-checkbox",
+                    attrs: {
+                      type: "checkbox",
+                      name: "stress",
+                      id: "",
+                      value: "stress"
+                    }
+                  })
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "px-3" }, [
+                  _c(
+                    "label",
+                    {
+                      staticClass: "text-sm text-white font-sans tracking-wide",
+                      attrs: { for: "strain" }
+                    },
+                    [_vm._v("Strain")]
+                  ),
+                  _vm._v(" "),
+                  _c("input", {
+                    staticClass: "form-checkbox",
+                    attrs: {
+                      type: "checkbox",
+                      name: "strain",
+                      id: "",
+                      value: "strain"
+                    }
+                  })
+                ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass:
+                    "btn_teal-600 text-white text-sm font-sans tracking-wide mt-6",
+                  attrs: { type: "submit" }
+                },
+                [_vm._v("Submit")]
+              )
+            ]
+          )
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -14808,7 +15317,8 @@ module.exports = g;
 var map = {
 	"./components/FooterComponent.vue": "./resources/js/components/FooterComponent.vue",
 	"./components/HeaderComponent.vue": "./resources/js/components/HeaderComponent.vue",
-	"./components/SelectionComponent.vue": "./resources/js/components/SelectionComponent.vue"
+	"./components/SelectionComponent.vue": "./resources/js/components/SelectionComponent.vue",
+	"./components/TensileComponent.vue": "./resources/js/components/TensileComponent.vue"
 };
 
 
@@ -15067,6 +15577,59 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SelectionComponent_vue_vue_type_template_id_fdfa3c08___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_SelectionComponent_vue_vue_type_template_id_fdfa3c08___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/TensileComponent.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/TensileComponent.vue ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./TensileComponent.vue?vue&type=template&id=2cdb105c& */ "./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/TensileComponent.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c& ***!
+  \*************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./TensileComponent.vue?vue&type=template&id=2cdb105c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/TensileComponent.vue?vue&type=template&id=2cdb105c&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_TensileComponent_vue_vue_type_template_id_2cdb105c___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

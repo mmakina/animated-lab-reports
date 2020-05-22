@@ -1,3 +1,3 @@
 <?php require_once "layouts/header.view.php"; ?>
-    <header-component></header-component>
+    <selection-component></selection-component>
 <?php require_once "layouts/footer.view.php"; ?>
